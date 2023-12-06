@@ -19,7 +19,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 0 1fr min-content 1fr 0;
   align-items: center;
-  height: 100vh;
+  min-block-size: 100vh;
   padding: 10px;
 }
 
@@ -116,6 +116,10 @@
   text-decoration: underline;
 }
 
+.article__link:focus {
+  outline: none;
+}
+
 .article__link:focus-visible {
   outline: 1px solid currentColor;
   text-decoration: none;
@@ -150,14 +154,13 @@
   inline-size: 100%;
 }
 
-
 .footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 0 1fr 0;
   justify-items: center;
   align-items: center;
-  height: 100vh;
+  min-block-size: 100vh;
   padding: 10px;
 }
 
@@ -236,7 +239,7 @@
   }
 
   .header__heading {
-    margin-left: -20px;
+    margin-inline-start: -20px;
   }
 
   .header__title {
