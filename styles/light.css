@@ -6,7 +6,7 @@
   --decorated-record-color: transparent;
   --decorated-record-bg: transparent;
   --decorated-record-shadow: transparent;
-  --page-bg-color: #ff8dcb;
+  --page-bg-color: #fff1f7;
   --page-bg-image: url(../images/cover-image-light.png);
   --heading-color: #ffc2e6;
   --header__theme-menu-button-color: #353430;
@@ -26,7 +26,7 @@
     --decorated-record-color: transparent;
     --decorated-record-bg: transparent;
     --decorated-record-shadow: transparent;
-    --page-bg-color: #ff8dcb;
+    --page-bg-color: #fff1f7;
     --page-bg-image: url(../images/cover-image-light.png);
     --heading-color: #ffc2e6;
     --header__theme-menu-button-color: #353430;
@@ -35,5 +35,4 @@
     --text-section__title-color: #353430;
     --article__text-color: #353430;
   }
-
 }
